@@ -4,7 +4,7 @@ See https://www.xsede.org/terminology
 
 ## Example
 
-I added ** to show the highlighted word by the interactive spellchecker.
+I added ** to show the word highlighted by the interactive spellchecker.
 
 ```
 > bash spellcheck.sh
