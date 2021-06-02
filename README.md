@@ -65,7 +65,7 @@ b) Abort                                                 x) Exit
 Standard word spelled incorrectly: computr
 Not inclusive term spelled correctly: abort
 Not inclusive term spelled correctly: aborted
-Not inclusive term spelled incorrectly: abbort
+Not inclusive term spelled incorrectly: **abbort**
                                                                                                                    
 1) Abbott                                                4) end
 2) abbot                                                 5) about  
