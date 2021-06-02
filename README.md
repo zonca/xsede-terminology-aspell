@@ -1,6 +1,7 @@
 # XSEDE inclusive terminology spell checking with aspell
 
 English spellchecking with `aspell` which suggests replacement for non-inclusive terms.
+It currently just includes 1 word from the XSEDE terminology list.
 
 See <https://www.xsede.org/terminology>
 
