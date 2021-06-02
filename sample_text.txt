@@ -1,0 +1,4 @@
+Standard word spelled incorrectly: computr
+Not inclusive term spelled correctly: abort
+Not inclusive term spelled correctly: aborted
+Not inclusive term spelled incorrectly: abbort
