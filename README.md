@@ -1,13 +1,31 @@
 # XSEDE inclusive terminology spell checking with aspell
 
-See https://www.xsede.org/terminology
+English spellchecking with `aspell` which suggests replacement for non-inclusive terms.
+
+See <https://www.xsede.org/terminology>
+
+## Usage
+
+All options are passed to `aspell`:
+
+    bash spellcheck.sh sample_text.txt
+    bash spellcheck.sh -t your_own_text.tex
+    bash spellcheck.sh -M your_own_text.md
+
+`sample_text.txt` is included in the repository for testing purposes.
+
+## How to add more words
+
+* Remove all the forms of the non-inclusive word from `en_xsede_terminology.wordlist`
+* Build the dictionary with: `bash create_dictionary.sh`
+* Add the replacements to `xsede-terminology.en.prepl`, see existing words as an example
 
 ## Example
 
 I added ** to show the word highlighted by the interactive spellchecker.
 
 ```
-> bash spellcheck.sh
+> bash spellcheck.sh sample_text.txt
 Standard word spelled incorrectly: **computr**
 Not inclusive term spelled correctly: abort
 Not inclusive term spelled correctly: aborted
