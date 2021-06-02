@@ -16,7 +16,7 @@ All options are passed to `aspell`:
 
 ## How to add more words
 
-* Remove all the forms of the non-inclusive word from `en_xsede_terminology.wordlist`
+* Remove all the forms of the non-inclusive word from `en_xsede_terminology.wordlist` (see b6aaecb1d4137ba98268b43785af2cfa01d26ff0)
 * Build the dictionary with: `bash create_dictionary.sh`
 * Add the replacements to `xsede-terminology.en.prepl`, see existing words as an example
 
